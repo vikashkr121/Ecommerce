@@ -1,0 +1,57 @@
+{
+  "seller": [
+    {
+      "id": "192a",
+      "name": "Vikash Kumar",
+      "email": "xyz@gmail.com",
+      "password": "834028"
+    },
+    {
+      "id": "ca6d",
+      "name": "Vikash Kumar ",
+      "email": "vikkusingh900@gmail.com ",
+      "password": "Vikku@123"
+    },
+    {
+      "id": "8a95",
+      "name": "Vikash Kumar ",
+      "email": "vikku123gmail.com",
+      "password": "Vikku@123 "
+    },
+    {
+      "id": "4253",
+      "name": "Vishal Kumar ",
+      "email": "vishal@gmail.com",
+      "password": "Vishal"
+    },
+    {
+      "id": "5872",
+      "name": "sumit",
+      "email": "sumit@gmai;.com",
+      "password": "Sumit@123"
+    },
+    {
+      "id": "6e92",
+      "name": "Vikku Singh",
+      "email": "vikku@gmail.com",
+      "password": "8340"
+    },
+    {
+      "id": "8cd5",
+      "name": "utuuuu",
+      "email": "utuuuu@gmail.com",
+      "password": "8340"
+    }
+  ],
+  "products": [
+    {
+      "id": "17e0",
+      "name": "iphone s5",
+      "price": "32000",
+      "color": "Whitw",
+      "category": "Mobile",
+      "description": "This  is good",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+    }
+  ]
+}

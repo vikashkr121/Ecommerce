@@ -1,8 +1,4 @@
-body{
-    margin: 0;
-    font-family: sans-serif;
-}
-.sign-up,.login{
+/* .sign-up,.login{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 80px;
@@ -35,7 +31,4 @@ body{
 }
 .error-p{
     color: red;
-}
-.p_message{
-    color: green;
-}
+} */
