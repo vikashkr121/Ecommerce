@@ -90,15 +90,6 @@
       "image": "https://itronics.in/wp-content/uploads/2023/09/iphone-15-pro-finish-select-202309-6-1inch_GEO_EMEA-3.png"
     },
     {
-      "name": "Jeans",
-      "price": "1500",
-      "color": "Blue",
-      "category": "Clothes",
-      "description": "Good for wear",
-      "image": "https://www.lee.in/media/catalog/product/l/m/lmjn004223_1.jpg",
-      "id": "0b07"
-    },
-    {
       "id": "aadf",
       "name": "Makeup Kit",
       "price": "1600",
@@ -115,6 +106,24 @@
       "category": "Keyword",
       "description": "Good for use",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer-acc-combo/o/p/y/-original-imagqdx6cqrjjzpg.jpeg?q=70&crop=false"
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "32000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "Latest laptop",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "id": "3c07"
+    },
+    {
+      "name": "Girls jeans",
+      "price": "1200",
+      "color": "Blue",
+      "category": "Clothes",
+      "description": "Good product",
+      "image": "https://images.meesho.com/images/products/315309011/n1oul_512.webp",
+      "id": "9530"
     }
   ],
   "users": [
@@ -143,7 +152,20 @@
       "password": "Bruce123"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "7b31",
+      "name": "Intex IT-WLKBM01",
+      "price": "1600",
+      "color": "Black",
+      "category": "Keyword",
+      "description": "Good for use",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer-acc-combo/o/p/y/-original-imagqdx6cqrjjzpg.jpeg?q=70&crop=false",
+      "quantity": 1,
+      "productId": "ff0c",
+      "userId": "3f14"
+    }
+  ],
   "orders": [
     {
       "id": "3e0a",
