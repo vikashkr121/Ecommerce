@@ -32,12 +32,12 @@
     border: 1px solid blueviolet;
     margin-top: 30px;
     height: 35px;
-    width: 384px;
+    width: 334px;
     border-radius: 5px;
 }
 .nav .nav-search button{
     height: 38px; 
-    width: 200px; 
+    width: 115px; 
     border-radius: 5px;  
 }
 dl, ol, ul {

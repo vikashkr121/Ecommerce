@@ -144,5 +144,14 @@
     }
   ],
   "cart": [],
-  "orders": []
+  "orders": [
+    {
+      "id": "3e0a",
+      "email": "vikku900@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 180100,
+      "userId": "3f14"
+    }
+  ]
 }
