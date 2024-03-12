@@ -1,6 +1,9 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    position: relative;
+    background-color: rgb(218, 211, 201);
 }
 .sign-up,.login{
     text-align: center;
@@ -10,7 +13,7 @@ body{
 }
 .form-input{
     height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     padding-left: 10px;
     border: 1px solid blueviolet;
     border-radius: 10px;
@@ -20,6 +23,7 @@ body{
     cursor: pointer;
     border: 1px solid blueviolet;
     border-radius: 10px;
+    color: rgb(7, 75, 75);
 }
 .common-form{
     text-align: center;
@@ -28,6 +32,15 @@ body{
     flex-direction: column;
     width: 300px;
 }
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top:-20px
+  }
+  button:disabled{
+    cursor: not-allowed;
+  }
+  
 .auth-toggle-link{
     margin: 10px;
     cursor: pointer;
@@ -39,3 +52,11 @@ body{
 .p_message{
     color: green;
 }
+.carousel-caption{
+    /* background-color: #0000001a; */
+    color: rgb(225, 167, 31);
+    
+}
+.max-width{
+    width: 100%;
+  }

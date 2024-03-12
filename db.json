@@ -45,13 +45,121 @@
   ],
   "products": [
     {
-      "id": "17e0",
-      "name": "iphone s5",
-      "price": "32000",
-      "color": "Whitw",
+      "name": "iphone 14",
+      "price": "30000",
+      "color": "White",
       "category": "Mobile",
       "description": "This  is good",
-      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+      "image": "https://newsroompost.com/wp-content/uploads/2022/08/iphone-14-4.jpg",
+      "id": "17e0"
+    },
+    {
+      "name": "Dell Vostro 3233",
+      "price": "30000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "This product is very good ",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "id": "a7ba"
+    },
+    {
+      "name": "Oppo reno",
+      "price": "110000",
+      "color": "Grey",
+      "category": "Mobile",
+      "description": "Good",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno2z-1.jpg",
+      "id": "f8aa"
+    },
+    {
+      "name": "KTM 31RC",
+      "price": "1500000",
+      "color": "Red",
+      "category": "Bike",
+      "description": "This bike is for chapri",
+      "image": "https://www.pngitem.com/pimgs/m/510-5105265_png-images-download-ktm-bike-wallpaper-hd-transparent.png",
+      "id": "80cf"
+    },
+    {
+      "id": "4470",
+      "name": "iphone 15 pro",
+      "price": "150000",
+      "color": "Black",
+      "category": "ios",
+      "description": "Latest iphone ",
+      "image": "https://itronics.in/wp-content/uploads/2023/09/iphone-15-pro-finish-select-202309-6-1inch_GEO_EMEA-3.png"
+    },
+    {
+      "name": "Jeans",
+      "price": "1500",
+      "color": "Blue",
+      "category": "Clothes",
+      "description": "Good for wear",
+      "image": "https://www.lee.in/media/catalog/product/l/m/lmjn004223_1.jpg",
+      "id": "0b07"
+    },
+    {
+      "id": "aadf",
+      "name": "Makeup Kit",
+      "price": "1600",
+      "color": "All color",
+      "category": "kit",
+      "description": "Women beauty",
+      "image": "https://d36re20f3aegqc.cloudfront.net/eyJidWNrZXQiOiJpbnNpZ2h0aW1hZ2VzbXVtYmFpIiwia2V5IjoicHJvZHVjdC83NC8zNDUvY2F0L2prMDlrdy5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MzgsImhlaWdodCI6NDM4LCJmaXQiOiJjb250YWluIn19fQ=="
+    },
+    {
+      "id": "ff0c",
+      "name": "Intex IT-WLKBM01",
+      "price": "1600",
+      "color": "Black",
+      "category": "Keyword",
+      "description": "Good for use",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer-acc-combo/o/p/y/-original-imagqdx6cqrjjzpg.jpeg?q=70&crop=false"
+    }
+  ],
+  "users": [
+    {
+      "id": "3f14",
+      "name": "Vikash kr",
+      "email": "vishal@gmail.com",
+      "password": "Vikku@123"
+    },
+    {
+      "id": "b77e",
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "peter@122"
+    },
+    {
+      "id": "49b2",
+      "name": "Bruce",
+      "email": "bruce@gmail.com",
+      "password": "Bruce@123"
+    },
+    {
+      "id": "15ee",
+      "name": "Bruce",
+      "email": "utuuuu@gmail.com",
+      "password": "Bruce123"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "c11d",
+      "email": "vikku@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 30100,
+      "userId": "3f14"
+    },
+    {
+      "id": "8008",
+      "email": "vikku@123.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 30100,
+      "userId": "3f14"
     }
   ]
 }

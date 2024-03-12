@@ -1,6 +1,6 @@
 
 .nav{
-    background-color: aqua;
+    background-color: black;
     display: flex;
     /* justify-content: space-between */
 }
@@ -20,11 +20,11 @@
 .nav li a{
     text-decoration: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 4px;
     font-size: 20px;
 }
 .nav-search{
-    padding-right: 25px;
+    padding-right: 20px;
     padding-left: 25px;
 }
 .nav .nav-search input{
@@ -32,7 +32,7 @@
     border: 1px solid blueviolet;
     margin-top: 30px;
     height: 35px;
-    width: 490px;
+    width: 384px;
     border-radius: 5px;
 }
 .nav .nav-search button{
@@ -40,3 +40,25 @@
     width: 200px; 
     border-radius: 5px;  
 }
+dl, ol, ul {
+    margin-top: 17px;
+    margin-bottom: 1rem;
+}
+
+.suggested-search{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 200px;
+  }
+  .suggested-search li {
+    padding:5px;
+    /* border: 1px solid #ddd; */
+  }
+  .suggested-search li a{
+    cursor: pointer;
+    color: blueviolet;
+  }
