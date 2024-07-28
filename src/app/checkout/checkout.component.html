@@ -1,38 +1,54 @@
 <div class="checkout">
-    <h1>Checkout</h1>
-    <div class="row">
-      <div class="col-sm-7">
-        <h3>Add shipping address</h3>
-        <p class="message-p">{{orderMsg}}</p>
-        <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
-          <input
-            type="text"
-            class="form-input"
-            name="email"
-            placeholder="Enter User Email"
-            ngModel
-          />
-          <input
-            type="text"
-            class="form-input"
-            name="address"
-            placeholder="Enter User Address"
-            ngModel
-          />
-          <input
-            type="text"
-            class="form-input"
-            name="contact"
-            placeholder="Enter contact details"
-            ngModel
-          />
-          <button class="form-button">Order Now</button>
+  <h1>Checkout</h1>
+  <div class="row">
+    <div class="col-sm-7">
+      <h3>Add shipping address</h3>
+      <p class="message-p">{{orderMsg}}</p>
+      <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
+        <input type="text" class="form-input" name="email" placeholder="Enter User Email" ngModel/>
+        <input type="text" class="form-input" name="address" placeholder="Enter User Address" ngModel />
+        <input type="text" class="form-input" name="contact" placeholder="Enter contact details" ngModel />
+        <button class="form-button" routerLink="payment">Order Now</button>
+      </form>
+    </div>
+    <div class="col-sm-5">
+      <h3>Total Amount: {{totalPrice}}</h3>
+      <h4>Payment Method : <b>Pay on delivery</b></h4>
+      <div class="container">
+        <h2>Payment Gateway</h2>
+        <form [formGroup]="paymentForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="cardNumber">Card Number</label>
+            <input type="text" id="cardNumber" formControlName="cardNumber" class="form-control" />
+            <div *ngIf="paymentForm.get('cardNumber') && paymentForm.get('cardNumber')">
+              Card Number is required and must be 16 digits.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cardHolder">Card Holder</label>
+            <input type="text" id="cardHolder" formControlName="cardHolder" class="form-control" />
+            <div *ngIf="paymentForm.get('cardHolder') && paymentForm.get('cardHolder')">
+              Card Holder is required.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="expiryDate">Expiry Date</label>
+            <input type="text" id="expiryDate" formControlName="expiryDate" class="form-control" />
+            <div *ngIf="paymentForm.get('expiryDate') && paymentForm.get('expiryDate')">
+              Expiry Date is required.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" formControlName="cvv" class="form-control" />
+            <div *ngIf="paymentForm.get('cvv') && paymentForm.get('cvv')">
+              CVV is required and must be 3 or 4 digits.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" [disabled]="paymentForm.invalid">Submit Payment</button>
         </form>
       </div>
-      <div class="col-sm-5">
-          <h3>Total Amount: {{totalPrice}}</h3>
-          <h4>Payment Method : <b>Pay on delivery</b></h4>
-      </div>
+
     </div>
   </div>
- 
+</div>

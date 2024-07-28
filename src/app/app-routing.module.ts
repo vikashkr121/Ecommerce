@@ -12,6 +12,7 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 
@@ -62,7 +63,9 @@ const routes: Routes = [
   {
     component:MyOrdersComponent,
     path:'my-orders'
-  }
+  },
+  { path: 'payment', component: PaymentComponent },
+  { path: '', redirectTo: '/payment', pathMatch: 'full' }
   
 ];
 

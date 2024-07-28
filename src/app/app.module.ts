@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +23,7 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 @NgModule({
@@ -38,7 +41,8 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
     UserAuthComponent,
     CartPageComponent,
     CheckoutComponent,
-    MyOrdersComponent
+    MyOrdersComponent,
+    PaymentComponent
   
   ],
   imports: [
@@ -48,7 +52,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
     HttpClientModule,
     FontAwesomeModule,
     NgbModule,
-    AutocompleteLibModule
+    AutocompleteLibModule,ReactiveFormsModule
 
   ],
   providers: [

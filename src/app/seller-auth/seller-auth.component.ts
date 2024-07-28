@@ -14,7 +14,7 @@ export class SellerAuthComponent {
 
 
   ngOnInit(): void {
-    this.seller.reloadseller();
+    this.seller.reloadseller(); 
   }
 
   signup(data: SignUp): void {
@@ -22,8 +22,9 @@ export class SellerAuthComponent {
     this.seller.userSignUp(data);
     this.seller.isSignupError.subscribe((isError)=>{
       if(isError){
-        this.authError="Please fill mendotory field"
+        this.authError="Successfully signup"
       }
+    
     })
   }
   login(data: SignUp): void {
@@ -44,4 +45,5 @@ export class SellerAuthComponent {
   openSignUp() {
     this.showLogin = false;
   }
+  
 }

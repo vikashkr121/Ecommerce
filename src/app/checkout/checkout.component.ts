@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { cart, order } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-checkout',
@@ -13,7 +14,15 @@ export class CheckoutComponent implements OnInit {
   totalPrice: number | undefined;
   cartData: cart[] | undefined;
   orderMsg: string | undefined;
-  constructor(private product: ProductService, private router: Router) { }
+  paymentForm: any;
+  constructor(private product: ProductService, private router: Router,private fb: FormBuilder) {
+    this.paymentForm = this.fb.group({
+      cardNumber: ['', [Validators.required, Validators.minLength(16), Validators.maxLength(16)]],
+      cardHolder: ['', Validators.required],
+      expiryDate: ['', Validators.required],
+      cvv: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(4)]]
+    });
+   }
 
   ngOnInit(): void {
     this.product.currentCart().subscribe((result) => {
@@ -63,5 +72,12 @@ export class CheckoutComponent implements OnInit {
     }
 
   }
+  onSubmit() {
+    if (this.paymentForm.valid) {
+      console.log('Payment Details:', this.paymentForm.value);
+      // Here, you would typically send the payment details to your backend server for processing
+    }
+  }
+  
 
 }

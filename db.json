@@ -41,6 +41,48 @@
       "name": "utuuuu",
       "email": "utuuuu@gmail.com",
       "password": "8340"
+    },
+    {
+      "id": "4412",
+      "name": "iphone s7 ",
+      "email": "iphone@123",
+      "password": "Iphone@123"
+    },
+    {
+      "id": "0017",
+      "name": "Pankaj kr",
+      "email": "pankaj@gmail.com",
+      "password": "Pankaj@123"
+    },
+    {
+      "id": "e10a",
+      "name": "Shreya",
+      "email": "shreya@gmail.com",
+      "password": "Shreya@123"
+    },
+    {
+      "id": "cc4d",
+      "name": "Kumar",
+      "email": "kumar@gmail.com",
+      "password": "Kumar@123"
+    },
+    {
+      "id": "8d4d",
+      "name": "Vikash Kumar ",
+      "email": "xyz@gmail.com",
+      "password": "12154"
+    },
+    {
+      "id": "dd88",
+      "name": "Vikash",
+      "email": "utuuuu@gmail.com",
+      "password": "Vikku@123"
+    },
+    {
+      "id": "f85e",
+      "name": "Sumit Kumar",
+      "email": "sumit@gmai.com",
+      "password": "Sumit@123"
     }
   ],
   "products": [
@@ -74,9 +116,9 @@
     {
       "name": "KTM 31RC",
       "price": "1500000",
-      "color": "Red",
+      "color": "Blue",
       "category": "Bike",
-      "description": "This bike is for chapri",
+      "description": "This bike is crazy ",
       "image": "https://www.pngitem.com/pimgs/m/510-5105265_png-images-download-ktm-bike-wallpaper-hd-transparent.png",
       "id": "80cf"
     },
@@ -124,6 +166,60 @@
       "description": "Good product",
       "image": "https://images.meesho.com/images/products/315309011/n1oul_512.webp",
       "id": "9530"
+    },
+    {
+      "id": "b5c7",
+      "name": "Realme c33 cover",
+      "price": "150",
+      "color": "Red",
+      "category": "Cover",
+      "description": "Decent cover",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/cases-covers/back-cover/p/d/5/rlmc33-3117-case-club-original-imagg6qhdueq9sg6.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "d11d",
+      "name": "Noise Watch",
+      "price": "1500",
+      "color": "Black",
+      "category": "Wrist Watch",
+      "description": "Good for use",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/w/4/-original-imagxp8uu5pequex.jpeg?q=70&crop=false"
+    },
+    {
+      "name": "POND's Bright Beauty",
+      "price": "250",
+      "color": "White",
+      "category": "Grocery",
+      "description": "Decent",
+      "image": "https://rukminim2.flixcart.com/image/416/416/l3vxbbk0/face-wash/j/i/w/-original-imagewhhtdnjdyek.jpeg?q=70",
+      "id": "9df4"
+    },
+    {
+      "name": "Laptop",
+      "price": "32000",
+      "color": "Red",
+      "category": "Lappy",
+      "description": "Accessories",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "id": "ad53"
+    },
+    {
+      "name": "Burboun",
+      "price": "25",
+      "color": "Magenta",
+      "category": "Buscuits",
+      "description": "This biscuit is so bawasir",
+      "image": "https://m.media-amazon.com/images/I/81c0jxRWx3L.jpg",
+      "id": "2fd0"
+    },
+    {
+      "name": "Men's Kurta",
+      "price": "1500",
+      "color": "Yellow",
+      "category": "Clothes",
+      "description": "This product is best for wear",
+      "image": "https://mahezon.in/cdn/shop/files/Untitled_design_3_8_c924f4dc-d71a-433e-a6cb-5c2fbee432e8_1200x1200.png?v=1688145584",
+      "id": "32fe"
     }
   ],
   "users": [
@@ -150,20 +246,98 @@
       "name": "Bruce",
       "email": "utuuuu@gmail.com",
       "password": "Bruce123"
+    },
+    {
+      "id": "0a60",
+      "name": "Sumit Kumar",
+      "email": "sumit@gmai.com",
+      "password": "Sumit@123"
+    },
+    {
+      "id": "da10",
+      "name": "Rishabh",
+      "email": "rishabh@gmail.com",
+      "password": "Rishabh@123"
+    },
+    {
+      "id": "52a1",
+      "name": "Vikash Kumar",
+      "email": "vikkusingh900@gmail.com",
+      "password": "Vikku@123"
+    },
+    {
+      "id": "01ee",
+      "name": "Rajneesh Kumar",
+      "email": "rajkr@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "7f6c",
+      "name": "Rajneesh Kumar",
+      "email": "rajkr@gmail.com",
+      "password": "12345"
     }
   ],
   "cart": [
     {
-      "id": "7b31",
-      "name": "Intex IT-WLKBM01",
-      "price": "1600",
-      "color": "Black",
-      "category": "Keyword",
-      "description": "Good for use",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer-acc-combo/o/p/y/-original-imagqdx6cqrjjzpg.jpeg?q=70&crop=false",
+      "id": "7e48",
+      "name": "Oppo reno",
+      "price": "110000",
+      "color": "Grey",
+      "category": "Mobile",
+      "description": "Good",
+      "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno2z-1.jpg",
       "quantity": 1,
-      "productId": "ff0c",
+      "productId": "f8aa",
       "userId": "3f14"
+    },
+    {
+      "id": "8e78",
+      "name": "Noise Watch",
+      "price": "1500",
+      "color": "Black",
+      "category": "Wrist Watch",
+      "description": "Good for use",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/g/w/4/-original-imagxp8uu5pequex.jpeg?q=70&crop=false",
+      "quantity": 1,
+      "productId": "d11d",
+      "userId": "3f14"
+    },
+    {
+      "id": "89a3",
+      "name": "Makeup Kit",
+      "price": "1600",
+      "color": "All color",
+      "category": "kit",
+      "description": "Women beauty",
+      "image": "https://d36re20f3aegqc.cloudfront.net/eyJidWNrZXQiOiJpbnNpZ2h0aW1hZ2VzbXVtYmFpIiwia2V5IjoicHJvZHVjdC83NC8zNDUvY2F0L2prMDlrdy5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MzgsImhlaWdodCI6NDM4LCJmaXQiOiJjb250YWluIn19fQ==",
+      "quantity": 1,
+      "productId": "aadf",
+      "userId": "3f14"
+    },
+    {
+      "id": "2753",
+      "name": "Dell Vostro 3233",
+      "price": "30000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "This product is very good ",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "quantity": 1,
+      "productId": "a7ba",
+      "userId": "52a1"
+    },
+    {
+      "id": "f53b",
+      "name": "Men's Kurta",
+      "price": "1500",
+      "color": "Yellow",
+      "category": "Clothes",
+      "description": "This product is best for wear",
+      "image": "https://mahezon.in/cdn/shop/files/Untitled_design_3_8_c924f4dc-d71a-433e-a6cb-5c2fbee432e8_1200x1200.png?v=1688145584",
+      "quantity": 1,
+      "productId": "32fe",
+      "userId": "52a1"
     }
   ],
   "orders": [
@@ -173,6 +347,30 @@
       "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
       "contact": "08340282546",
       "totalPrice": 180100,
+      "userId": "3f14"
+    },
+    {
+      "id": "711e",
+      "email": "sumit@gmai.com",
+      "address": "Village-kuriya, Po+Ps-kathaiyan , Block-motipur",
+      "contact": "07277103097",
+      "totalPrice": 3100,
+      "userId": "0a60"
+    },
+    {
+      "id": "38ea",
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 1700,
+      "userId": "3f14"
+    },
+    {
+      "id": "454d",
+      "email": "vikkusingh900@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 3000100,
       "userId": "3f14"
     }
   ]
