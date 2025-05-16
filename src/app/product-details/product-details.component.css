@@ -1,4 +1,4 @@
-.product-details{
+/* .product-details{
     margin-top: 50px;
     margin-bottom: 80px;
 }
@@ -11,7 +11,7 @@
     border: 3px solid #000;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 45%;
 }
 .quantity-group{
     margin-top: 20px;
@@ -22,4 +22,141 @@
 .quantity-group input{
     padding: 10px;
     width: 50px;
+} */
+
+
+
+
+
+.row.product-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    margin: 20px;
+    
+   
+}
+
+
+.col-sm-6 {
+    flex: 1;
+    margin: 15px;
+    max-width: 500px;
+}
+
+
+.product-img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.details {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(0);
+}
+
+.details:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+.details h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.details h3, .details h6 {
+    margin: 10px 0;
+    color: #555;
+}
+
+
+.product-color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.product-color:hover {
+    transform: scale(1.2);
+}
+
+
+.form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 4px 25px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.quantity-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantity-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+.quantity-group button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.quantity-group input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .col-sm-6 {
+        max-width: 100%;
+    }
 }

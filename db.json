@@ -83,6 +83,12 @@
       "name": "Sumit Kumar",
       "email": "sumit@gmai.com",
       "password": "Sumit@123"
+    },
+    {
+      "id": "57d7",
+      "name": "Deepak Kumar",
+      "email": "deepak@gmail.com",
+      "password": "12345"
     }
   ],
   "products": [
@@ -220,6 +226,24 @@
       "description": "This product is best for wear",
       "image": "https://mahezon.in/cdn/shop/files/Untitled_design_3_8_c924f4dc-d71a-433e-a6cb-5c2fbee432e8_1200x1200.png?v=1688145584",
       "id": "32fe"
+    },
+    {
+      "id": "1320",
+      "name": "Hair dryer",
+      "price": "300",
+      "color": "Black",
+      "category": "Assesieries",
+      "description": "Good for use",
+      "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/1120835/uUWn2Gh4r-1120835_1.jpg"
+    },
+    {
+      "id": "4d60",
+      "name": "T-shirt",
+      "price": "500",
+      "color": "YELLOW",
+      "category": "Clothes",
+      "description": "This t-shirt is good ",
+      "image": "https://images.bestsellerclothing.in/data/JJ/24-april-2024/227578001_g0.jpg?width=488&height=650&mode=fill&fill=blur&format=auto"
     }
   ],
   "users": [
@@ -276,6 +300,18 @@
       "name": "Rajneesh Kumar",
       "email": "rajkr@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "f4db",
+      "name": "Raj Kumar",
+      "email": "rajkr@gmail.com",
+      "password": "Raj@123"
+    },
+    {
+      "id": "3506",
+      "name": "Sheepu Kumar",
+      "email": "sheepu@gmail.com",
+      "password": "12345"
     }
   ],
   "cart": [
@@ -316,19 +352,7 @@
       "userId": "3f14"
     },
     {
-      "id": "2753",
-      "name": "Dell Vostro 3233",
-      "price": "30000",
-      "color": "White",
-      "category": "Laptop",
-      "description": "This product is very good ",
-      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
-      "quantity": 1,
-      "productId": "a7ba",
-      "userId": "52a1"
-    },
-    {
-      "id": "f53b",
+      "id": "214f",
       "name": "Men's Kurta",
       "price": "1500",
       "color": "Yellow",
@@ -337,6 +361,42 @@
       "image": "https://mahezon.in/cdn/shop/files/Untitled_design_3_8_c924f4dc-d71a-433e-a6cb-5c2fbee432e8_1200x1200.png?v=1688145584",
       "quantity": 1,
       "productId": "32fe",
+      "userId": "52a1"
+    },
+    {
+      "id": "fc8b",
+      "name": "Laptop",
+      "price": "32000",
+      "color": "Red",
+      "category": "Lappy",
+      "description": "Accessories",
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVsbCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+      "quantity": 1,
+      "productId": "ad53",
+      "userId": "52a1"
+    },
+    {
+      "id": "08db",
+      "name": "iphone 14",
+      "price": "30000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "This  is good",
+      "image": "https://newsroompost.com/wp-content/uploads/2022/08/iphone-14-4.jpg",
+      "quantity": 1,
+      "productId": "17e0",
+      "userId": "52a1"
+    },
+    {
+      "id": "14b5",
+      "name": "iphone 14",
+      "price": "30000",
+      "color": "White",
+      "category": "Mobile",
+      "description": "This  is good",
+      "image": "https://newsroompost.com/wp-content/uploads/2022/08/iphone-14-4.jpg",
+      "quantity": 8,
+      "productId": "17e0",
       "userId": "52a1"
     }
   ],
@@ -372,6 +432,54 @@
       "contact": "08340282546",
       "totalPrice": 3000100,
       "userId": "3f14"
+    },
+    {
+      "id": "e3db",
+      "email": "vikkusingh900@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 30100,
+      "userId": "7f6c"
+    },
+    {
+      "id": "2134",
+      "email": "vikkusingh900@gmail.com",
+      "address": "Muzaffarpur, Bihar",
+      "contact": "08340282546",
+      "totalPrice": 30100,
+      "userId": "3506"
+    },
+    {
+      "id": "273a",
+      "email": "vikkusingh900@gmail.com",
+      "address": "Muzaffarpur, Bihar",
+      "contact": "08340282546",
+      "totalPrice": 93100,
+      "userId": "52a1"
+    },
+    {
+      "id": "991c",
+      "email": "vikkusingh900@gmail.com",
+      "address": "Muzaffarpur, Bihar",
+      "contact": "08340282546",
+      "totalPrice": 150100,
+      "userId": "52a1"
+    },
+    {
+      "id": "d1c5",
+      "email": "vikkusingh900@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 600,
+      "userId": "52a1"
+    },
+    {
+      "id": "499d",
+      "email": "vikkusingh900@gmail.com",
+      "address": "VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR, VILLAGE-KURIYA, PO+PS-KATHAIYA, BLOCK-MOTIPUR",
+      "contact": "08340282546",
+      "totalPrice": 400,
+      "userId": "52a1"
     }
   ]
 }

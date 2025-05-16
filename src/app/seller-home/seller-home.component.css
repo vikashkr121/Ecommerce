@@ -1,4 +1,4 @@
-table{
+/* table{
     text-align: left;
     color: darkblue;
     border-collapse: collapse;
@@ -17,6 +17,137 @@ img{
 }
 .icons{
     width: 10px;
-    /* height: 10px; */
+    
+}
+ */
+
+
+
+
+ /* Container styles */
+.product-list {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.product-list h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.p_message {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+tbody td img:hover {
+    transform: scale(1.1);
+}
+
+
+.icons, .adjust-update-link fa-icon {
+    cursor: pointer;
+    margin: 0 5px;
+    color: #007bff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icons:hover, .adjust-update-link fa-icon:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(even) {
+        background: #f2f2f2;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        transform: translateY(-50%);
+    }
+
+    td:nth-of-type(1):before { content: "Image"; }
+    td:nth-of-type(2):before { content: "Name"; }
+    td:nth-of-type(3):before { content: "Price"; }
+    td:nth-of-type(4):before { content: "Color"; }
+    td:nth-of-type(5):before { content: "Category"; }
+    td:nth-of-type(6):before { content: "Description"; }
+    td:nth-of-type(7):before { content: "Action"; }
+}

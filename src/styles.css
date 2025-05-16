@@ -1,5 +1,3 @@
-
-
 body{
     margin: 0;
     padding: 0;
@@ -56,10 +54,14 @@ body{
     color: green;
 }
 .carousel-caption{
-    /* background-color: #0000001a; */
+    
     color: rgb(225, 167, 31);
     
 }
 .max-width{
     width: 100%;
   }
+
+
+
+

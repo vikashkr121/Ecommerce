@@ -21,3 +21,52 @@ ul{
     color: blueviolet;
     text-decoration: none;
 }
+
+
+
+/* .footer {
+    background-color: #333;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin: 10px 15px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #ff9900;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+} */
+
+@media (max-width: 768px) {
+    .footer ul {
+        flex-direction: column;
+    }
+
+    .footer ul li {
+        margin: 5px 0;
+    }
+}

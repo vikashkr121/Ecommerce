@@ -2,25 +2,47 @@
 <div class="seller-auth">
     <div *ngIf="!showLogin" class="sign-up">
         <h1>Seller Sign-Up</h1>
-        <p class="error-p">{{authError}} </p>
+        <p class="error-p">{{authError}}</p>
         <form class="common-form" #sellerSignUp="ngForm" (ngSubmit)="signup(sellerSignUp.value)">
             <input ngModel type="text" class="form-input" placeholder="Enter Name" name="name">
             <input ngModel type="text" class="form-input" placeholder="Enter Email" name="email">
-            <input ngModel type="text" class="form-input" placeholder="Enter Password" name="password">
-            <button class="form-button">Sign-Up</button>
+            <input ngModel type="password" class="form-input" placeholder="Enter Password" name="password">
+            <button  class="form-button">Sign-Up</button>
             <a class="auth-toggle-link" (click)="openLogin()">Already Have Account? Click to Login</a>
+            <div class="social-login">
+                <button class="social-button google-button">
+                    <img src="assets/google.png" alt="Google" /> Google
+                </button>
+                <button class="social-button facebook-button">
+                    <img src="assets/facebook.png" alt="Facebook" /> Facebook
+                </button>
+                <button class="social-button linkedin-button">
+                    <img src="assets/link.png" alt="LinkedIn" /> LinkedIn
+                </button>
+            </div>
         </form>
     </div>
 
     <!-- Login Area -->
     <div *ngIf="showLogin" class="login">
         <h1>Seller Login</h1>
-        <p class="error-p">{{authError}} </p>
+        <p class="error-p">{{authError}}</p>
         <form class="common-form" #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)">
             <input ngModel type="text" class="form-input" placeholder="Enter Email" name="email">
-            <input ngModel type="text" class="form-input" placeholder="Enter Password" name="password">
-            <button class="form-button">Login</button>
+            <input ngModel type="password" class="form-input" placeholder="Enter Password" name="password">
+            <button  class="form-button">Login</button>
             <a class="auth-toggle-link" (click)="openSignUp()">Don't have Account? Click to Sign-Up</a>
+            <div class="social-login">
+                <button class="social-button google-button">
+                    <img src="assets/google.png" alt="Google" /> Google
+                </button>
+                <button class="social-button facebook-button">
+                    <img src="assets/facebook.png" alt="Facebook" /> Facebook
+                </button>
+                <button class="social-button linkedin-button">
+                    <img src="assets/link.png" alt="LinkedIn" /> LinkedIn
+                </button>
+            </div>
         </form>
     </div>
 </div>
